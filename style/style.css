@@ -1,0 +1,312 @@
+*{ margin: 0;
+  padding: 0;}
+
+  
+#logo, #menubar, #footer 
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#body
+{background-color: #a0ab81;}
+#header
+{background: #323423;
+ height: 175px;}
+  
+
+#menubar
+{ width: 1040px;
+  height: 50px;} 
+
+ul#menu
+{
+list-style-type: none;
+margin-top:-95px;
+margin-left:-15px;
+overflow: hidden;
+float:left;
+background-color: #323423;
+}
+
+ul#menu li
+{ float: left;
+}
+
+ul#menu li a
+{display: block;
+color: #a0ab81;
+font-family: helvetica ,arial, sans-serif;
+font-size: 12.5pt;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;} 
+
+ul#menu li.selected a
+{ height: 30px;}
+
+ul#menu li.selected
+{background: #646c51;}
+
+ul#menu li a:hover
+{background-color: #646c51;
+text-decoration: underline;}
+
+#control p	
+{
+margin-top:-225px;
+text-align: justify; 
+padding:40px 40px 40px 40px; 
+text-align-last: right;
+font-family:Arial;
+font-size:12.5pt;
+color:#a0ab81;
+line-height:26pt;}   
+  
+#PageContent
+{
+  background-color: #a0ab81;
+  width: 890px;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  padding: 0 0 10px 0;} 
+
+
+ #content{padding:20px;}
+  
+ .button {
+  background-color: #323423;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+input {
+  background-color: #f8f8f8;
+}
+
+input[type=text], select, [type=password],[type=email],[type=tel]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#content p{
+	font-family:Arial;
+	font-size:13.5pt;
+	color:#323423;
+	line-height:26pt;
+}
+#content h2{
+	font-family:Arial;
+	color:#323423;
+	line-height:26pt;
+}
+#content h1{
+	font-family:Arial;
+	color:#323423;
+	line-height:26pt;
+}
+#content ul{
+	margin-left:60px;
+	font-family:Arial;
+}
+
+#content h3{
+font-family:Arial;
+color:#323423;
+margin-top:190px;
+margin-right:-21px;
+float:right;
+}
+
+#content h4{
+font-family:Arial;
+color:#323423;
+margin-top:190px;
+margin-right:-21px;
+float:right;
+}
+table {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+}
+
+
+td, th {
+background-color:#a0ab81;
+border: 1px solid #323423;
+text-align: left;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #323423;
+}
+
+
+#footer
+{ width: 100%;
+  font-family: helvetica ,arial, sans-serif;
+  font-size: 100%;
+  height: 80px;
+  padding: 28px 0 5px 0;
+  text-align: center; 
+  background: #323423;
+  color: #FFF;}
+
+#footer p
+{ line-height: 1.7em;
+margin-left:-800px;
+  padding: 0 0 10px 0;
+  color: #a0ab81;}
+
+/*How To Style Social Media Buttons w3schools */
+
+.fa {
+  padding: 30px;
+  font-size: 30px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-twitter {
+
+  color: #a0ab81;
+}
+
+.fa-instagram {
+  color: #a0ab81;
+}
+
+.fa-phone {
+  color: #a0ab81;
+}
+.fa-user {
+  color: #a0ab81;
+}
+.fa-calendar {
+  color: #323423;
+}
+.fa-hourglass {
+  color: #323423;
+}
+.fa-crosshairs {
+  color: #323423;
+}
+
+.fa-gear {
+  color: #323423;
+}
+
+.fa-users {
+  color: #323423;
+}
+
+/*How To Style rating section w3schools */
+
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+/*How To Style pics in form of a gallery w3schools */
+
+div.gallery {
+  margin: 17px;
+  border: 1.5px solid #646c51;
+  float: left;
+  width: 25%;
+  color:#323423;
+}
+
+div.gallery:hover {
+  border: 1.5px solid #646c51;
+  background-color:#646c51;
+  color:white;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 164px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.revtable table {
+width: 100%;
+
+
+}
+div.revtable th, td {
+	  text-align: left;
+	  padding: 18px;
+	  color: #323423;
+	  border-color:#646c51;
+	}
+	
+th {
+	text-align: center;
+	background-color: #646c51;
+	color: white;
+	border-color:#a0ab81;
+	}
+	
+tr:nth-child(even){background-color: #646c51}
